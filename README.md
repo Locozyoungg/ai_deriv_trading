@@ -44,7 +44,8 @@ ai_deriv_trading/
 ├── requirements.txt # Python dependencies
 └── Dockerfile # Containerization setup
 
-## Installation
+
+## Installation
 
 1. **Clone Repository**
 ```bash
@@ -73,6 +74,25 @@ python -m src.utils.backtester --years 2 --strategy adaptive
 
 # Monitor learning performance
 python -m src.utils.monitor --format dashboard
+
+Build Docker Image
+bash
+docker build -t ai-trading-bot .
+
+Run Container
+
+bash
+docker run -p 8501:8501 --env-file .env ai-trading-bot
+
+Access Dashboard
+Open http://localhost:8501 in your browser
+
+Development Mode
+
+bash
+docker-compose up --build
+
+
 
 Configuration
 # config/params.yaml
