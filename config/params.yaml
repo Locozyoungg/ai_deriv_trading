@@ -1,0 +1,22 @@
+# File Location: config/params.yaml
+
+# Deriv platform configuration
+deriv:
+  app_id: "12345"
+  allowed_symbols:
+    - "R_50"
+    - "R_100"
+    - "1HZ100V"
+    
+# Risk parameters
+risk:
+  max_daily_loss: 5.0    # Percentage
+  max_position_size: 2.0 # Percentage of account
+  stop_loss: 1.5         # Percentage
+  
+# Strategy parameters
+strategy:
+  lookback_period: 14
+  entry_threshold: 2.0
+  exit_threshold: 0.5
+  max_trades_daily: 20
