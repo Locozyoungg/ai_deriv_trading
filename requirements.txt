@@ -1,0 +1,33 @@
+# Core Dependencies
+python>=3.10
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.1.0
+river>=0.13.0  # For online learning and concept drift detection
+
+# Deriv API
+deriv-api>=1.0.0
+
+# Data Processing
+ta-lib>=0.4.24  # Technical analysis library
+yfinance>=0.2.0  # For backtesting with historical data
+
+# Machine Learning
+tensorflow>=2.10.0  # For neural network components
+stable-baselines3>=1.7.0  # Reinforcement learning
+
+# Visualization and Monitoring
+matplotlib>=3.6.0
+streamlit>=1.12.0  # For real-time dashboards
+
+# Utilities
+python-dotenv>=0.21.0  # Environment variable management
+loguru>=0.6.0  # Logging
+tqdm>=4.64.0  # Progress bars
+
+# Testing
+pytest>=7.2.0
+pytest-asyncio>=0.20.0
+
+# Containerization
+gunicorn>=20.1.0  # WSGI server for Docker
