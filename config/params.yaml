@@ -2,7 +2,7 @@
 
 # Deriv platform configuration
 deriv:
-  app_id: "12345"
+  app_id: "1089"
   allowed_symbols:
     - "R_50"
     - "R_100"

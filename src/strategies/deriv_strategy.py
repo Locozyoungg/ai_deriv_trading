@@ -6,6 +6,8 @@ File Location: src/strategies/deriv_strategy.py
 
 import numpy as np
 import pandas as pd
+from typing import Optional, Dict
+
 
 class VolatilityIndexStrategy:
     """Implements mean-reversion strategy for volatility indices"""

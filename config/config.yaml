@@ -1,9 +1,9 @@
 account:
-  initial_balance: 1000.0
+  initial_balance: 10000.0
 
 deriv:
-  app_id: "YOUR_APP_ID"
-  token: "YOUR_TOKEN"
+  app_id: "1089"
+  token: "SqQA3ZxJRKTHK4r"
   symbols: ["R_100"]
   
 strategy:

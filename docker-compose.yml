@@ -5,8 +5,8 @@ services:
     build: .
     container_name: ai_trading_bot
     environment:
-      - DERIV_APP_ID=${DERIV_APP_ID}
-      - DERIV_TOKEN=${DERIV_TOKEN}
+      - DERIV_APP_ID=${1089}
+      - DERIV_TOKEN=${SqQA3ZxJRKTHK4r}
     volumes:
       - .:/app
     ports:
